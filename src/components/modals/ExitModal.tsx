@@ -32,7 +32,7 @@ const ExitModal = () => {
       <DialogContent className="max-w-xs md:max-w-md">
         <DialogHeader>
           <div className="flex items-center w-full justify-center mb-5">
-            <Image src="/mascot_sad.svg" alt="Mascot" height={80} width={80} />
+            <Image src="/logo_sad.png" alt="Mascot" height={80} width={80} />
           </div>
 
           <DialogTitle className="text-center font-bold text-2xl">

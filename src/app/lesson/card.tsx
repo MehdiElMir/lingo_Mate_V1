@@ -50,7 +50,7 @@ const Card = ({
         "h-full border-2 rounded-xl border-b-4 hover:bg-black/5 cursor-pointer active:border-b-2 p-4 lg:p-6",
         {
           "border-sky-300 bg-sky-100 hover:bg-sky-100": selected,
-          "border-green-300 bg-green-100 hover:bg-green-100":
+          "border-cyan-300 bg-cyan-100 hover:bg-cyan-100":
             selected && status === "correct",
           "border-rose-300 bg-rose-100 hover:bg-rose-100":
             selected && status === "wrong",
@@ -77,7 +77,7 @@ const Card = ({
         <p
           className={cn("text-neutral-600 text-sm lg:text-base", {
             "text-sky-500": selected,
-            "text-green-500": selected && status === "correct",
+            "text-cyan-500": selected && status === "correct",
             "text-rose-500": selected && status === "wrong",
           })}
         >
@@ -89,8 +89,7 @@ const Card = ({
             "flex items-center justify-center rounded-lg border-2 text-neutral-400 lg:w-[30px] lg:h-[30px] w-[20px] h-[20px] lg:text-[15px] text-xs font-semibold",
             {
               "border-sky-300 text-sky-500": selected,
-              "border-green-500 text-green-500":
-                selected && status === "correct",
+              "border-cyan-500 text-cyan-500": selected && status === "correct",
               "border-rose-500 text-rose-500": selected && status === "wrong",
             }
           )}

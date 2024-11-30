@@ -21,7 +21,6 @@ import {
 
 const LeaderboardPage = async () => {
   const user = await currentUser();
-
   const leaderboardData = getTopTenUsers();
   const userProgressData = getUserProgress();
   const userSubscriptionData = getUserSubscription();
@@ -76,7 +75,7 @@ const LeaderboardPage = async () => {
               <p className="font-bold text-lime-700">{index + 1}</p>
 
               <div className="flex items-center w-[87%] md:w-[84%] lg:w-[90%] gap-2">
-                <Avatar className="border bg-green-500 h-8 w-8 lg:h-10 lg:w-10">
+                <Avatar className="border bg-cyan-500 h-8 w-8 lg:h-10 lg:w-10">
                   <AvatarImage
                     className="object-cover"
                     src={userProgress.userImageSrc}

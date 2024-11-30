@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Button } from "@/components/ui";
+import { Button } from "@/components/ui/Button";
 
 const Footer = () => {
   return (
@@ -11,14 +11,14 @@ const Footer = () => {
           className="w-full cursor-default hover:bg-transparent"
         >
           <Image
-            src="/hr.svg"
+            src="/ma.svg"
             alt="Croatian"
             height={0}
             width={0}
             className="mr-4 rounded-md"
             style={{ height: "32px", width: "32px" }}
           />
-          Croatian
+          Moroccan Darija
         </Button>
 
         <Button
@@ -51,38 +51,6 @@ const Footer = () => {
             style={{ height: "32px", width: "32px" }}
           />
           French
-        </Button>
-
-        <Button
-          size="lg"
-          variant="defaultOutline"
-          className="w-full cursor-default hover:bg-transparent"
-        >
-          <Image
-            src="/it.svg"
-            alt="Italian"
-            height={0}
-            width={0}
-            className="mr-4 rounded-md"
-            style={{ height: "32px", width: "32px" }}
-          />
-          Italian
-        </Button>
-
-        <Button
-          size="lg"
-          variant="defaultOutline"
-          className="w-full cursor-default hover:bg-transparent"
-        >
-          <Image
-            src="/jp.svg"
-            alt="Japanese"
-            height={0}
-            width={0}
-            className="mr-4 rounded-md"
-            style={{ height: "32px", width: "32px" }}
-          />
-          Japanese
         </Button>
       </div>
     </footer>

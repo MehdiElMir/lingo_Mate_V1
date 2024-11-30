@@ -22,10 +22,10 @@ const Sidebar = async ({ className }: SidebarProps) => {
     >
       <Link href="/learn">
         <div className="flex items-center gap-x-3 px-4 py-8">
-          <Image src="/mascot.svg" height={40} width={40} alt="Mascot" />
+          <Image src="/logo.png" height={40} width={40} alt="Mascot" />
 
-          <h1 className="text-3xl font-extrabold tracking-wide text-green-600">
-            Lingo
+          <h1 className="text-3xl font-extrabold tracking-wide text-cyan-500">
+            LingoMate
           </h1>
         </div>
       </Link>
@@ -46,14 +46,6 @@ const Sidebar = async ({ className }: SidebarProps) => {
       <Separator className="h-0.5" />
 
       <div className="flex flex-col gap-y-4 mt-4">
-        <div className="flex items-center justify-center gap-x-2">
-          <RepoStar />
-
-          <span className="text-sm font-bold uppercase w-full p-2">
-            Star on GitHub
-          </span>
-        </div>
-
         <div className="flex items-center justify-center gap-x-2 mb-4">
           <ClerkLoading>
             <SignedIn>

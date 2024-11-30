@@ -36,10 +36,10 @@ const MobileSidebar = async () => {
         <SheetClose asChild>
           <Link href="/learn">
             <div className="flex items-center gap-x-3 px-4 py-8">
-              <Image src="/mascot.svg" height={40} width={40} alt="Mascot" />
+              <Image src="/logo.png" height={40} width={40} alt="Mascot" />
 
-              <h1 className="text-3xl font-extrabold tracking-wide text-green-600">
-                Lingo
+              <h1 className="text-3xl font-extrabold tracking-wide text-cyan-600">
+                LingoMate
               </h1>
             </div>
           </Link>

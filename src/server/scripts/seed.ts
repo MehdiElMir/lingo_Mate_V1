@@ -28,23 +28,18 @@ const main = async () => {
     await db.insert(schema.courses).values([
       {
         id: 1,
-        title: "Spanish",
-        imageSrc: "/es.svg",
+        title: "Moroccan Darija",
+        imageSrc: "/ma.svg",
       },
       {
         id: 2,
-        title: "Italian",
-        imageSrc: "/it.svg",
+        title: "Spanish",
+        imageSrc: "/es.svg",
       },
       {
         id: 3,
         title: "French",
         imageSrc: "/fr.svg",
-      },
-      {
-        id: 4,
-        title: "Croatian",
-        imageSrc: "/hr.svg",
       },
     ]);
 
@@ -53,7 +48,7 @@ const main = async () => {
         id: 1,
         courseId: 1,
         title: "Unit 1",
-        description: "Learn the basics of Spanish",
+        description: "Learn the basics of Moroccan Darija",
         order: 1,
       },
     ]);
@@ -111,7 +106,7 @@ const main = async () => {
         lessonId: 1,
         type: "SELECT",
         order: 3,
-        question: 'Which one of these is the "the robot"?',
+        question: 'Which one of these is the "the women"?',
       },
     ]);
 
@@ -135,7 +130,7 @@ const main = async () => {
         lessonId: 2,
         type: "SELECT",
         order: 3,
-        question: 'Which one of these is the "the robot"?',
+        question: 'Which one of these is the "the women"?',
       },
     ]);
 
@@ -144,21 +139,21 @@ const main = async () => {
         challengeId: 1,
         imageSrc: "/man.svg",
         correct: true,
-        text: "el hombre",
+        text: "rajel",
         audioSrc: "/es_man.mp3",
       },
       {
         challengeId: 1,
         imageSrc: "/woman.svg",
         correct: false,
-        text: "la mujer",
+        text: "mera",
         audioSrc: "/es_woman.mp3",
       },
       {
         challengeId: 1,
         imageSrc: "/robot.svg",
         correct: false,
-        text: "el robot",
+        text: "robot",
         audioSrc: "/es_robot.mp3",
       },
     ]);
@@ -167,19 +162,19 @@ const main = async () => {
       {
         challengeId: 2,
         correct: true,
-        text: "el hombre",
+        text: "rajel",
         audioSrc: "/es_man.mp3",
       },
       {
         challengeId: 2,
         correct: false,
-        text: "la mujer",
+        text: "mera",
         audioSrc: "/es_woman.mp3",
       },
       {
         challengeId: 2,
         correct: false,
-        text: "el robot",
+        text: "robot",
         audioSrc: "/es_robot.mp3",
       },
     ]);
@@ -189,21 +184,21 @@ const main = async () => {
         challengeId: 3,
         imageSrc: "/man.svg",
         correct: false,
-        text: "el hombre",
+        text: "rajel",
         audioSrc: "/es_man.mp3",
       },
       {
         challengeId: 3,
         imageSrc: "/woman.svg",
         correct: false,
-        text: "la mujer",
+        text: "mera",
         audioSrc: "/es_woman.mp3",
       },
       {
         challengeId: 3,
         imageSrc: "/robot.svg",
         correct: true,
-        text: "el robot",
+        text: "robot",
         audioSrc: "/es_robot.mp3",
       },
     ]);

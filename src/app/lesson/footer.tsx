@@ -20,13 +20,13 @@ const Footer = ({ onCheck, status, disabled, lessonId }: FooterProps) => {
   return (
     <footer
       className={cn("h-[100px] lg:-h[140px] border-t-2", {
-        "border-transparent bg-green-100": status === "correct",
+        "border-transparent bg-cyan-100": status === "correct",
         "border-transparent bg-rose-100": status === "wrong",
       })}
     >
       <div className="flex items-center justify-between max-w-[1140px] h-full mx-auto px-6 lg:px-10">
         {status === "correct" && (
-          <div className="flex items-center text-green-500 font-bold text-base lg:text-2xl">
+          <div className="flex items-center text-cyan-500 font-bold text-base lg:text-2xl">
             <CheckCircle className="h-6 w-6 lg:h-10 lg:w-10 mr-4" />
             Nicely done!
           </div>

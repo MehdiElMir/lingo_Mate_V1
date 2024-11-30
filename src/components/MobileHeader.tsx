@@ -3,12 +3,10 @@ import { MobileSidebar, RepoStar } from "@/components";
 import { ClerkLoaded, ClerkLoading, SignedIn, UserButton } from "@clerk/nextjs";
 
 const MobileHeader = () => (
-  <nav className="fixed top-0 z-50 flex h-[60px] w-full items-center justify-between border-b bg-green-500 px-6 md:hidden">
+  <nav className="fixed top-0 z-50 flex h-[60px] w-full items-center justify-between border-b bg-cyan-500 px-6 md:hidden">
     <MobileSidebar />
 
     <div className="flex gap-4">
-      <RepoStar />
-
       <ClerkLoading>
         <SignedIn>
           <Button

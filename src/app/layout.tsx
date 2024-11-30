@@ -10,8 +10,22 @@ import { ExitModal, HeartsModal, PracticeModal } from "@/components/modals";
 const font = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lingo",
+  title: "LingoMate",
   description: "Learn new languages at your own pace.",
+  icons: {
+    icon: [
+      {
+        media: "(prefers-color-scheme: light)",
+        url: "/logo.png",
+        href: "/logo.png",
+      },
+      {
+        media: "(prefers-color-scheme: dark)",
+        url: "/logo.png",
+        href: "/logo.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

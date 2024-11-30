@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Button } from "@/components/ui";
+import { Button } from "@/components/ui/Button";
 
 import {
   ClerkLoaded,
@@ -14,10 +14,10 @@ const Header = () => (
   <header className="h-20 w-full border-b-2 border-slate-200 px-6">
     <div className="mx-auto flex h-full items-center justify-between lg:max-w-screen-lg">
       <div className="flex items-center gap-x-3">
-        <Image src="/mascot.svg" height={40} width={40} alt="Mascot" />
+        <Image src="/logo.png" height={40} width={40} alt="Mascot" />
 
-        <h1 className="text-2xl font-extrabold tracking-wide text-green-600">
-          Lingo
+        <h1 className="text-2xl font-extrabold tracking-wide text-cyan-500">
+          LingoMate
         </h1>
       </div>
 

@@ -13,7 +13,7 @@ type UnitBannerProps = {
 const UnitBanner = ({ title, description, access }: UnitBannerProps) => (
   <div
     className={cn(
-      "flex items-center justify-between bg-green-500 text-white w-full gap-2 rounded-xl p-5",
+      "flex items-center justify-between bg-cyan-500 text-white w-full gap-2 rounded-xl p-5",
       {
         "bg-neutral-200 text-neutral-400": !access,
       }

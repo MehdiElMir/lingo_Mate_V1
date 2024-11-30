@@ -8,7 +8,7 @@ const QuestionBubble = ({ question }: QuestionBubbleProps) => {
   return (
     <div className="flex items-center gap-x-4 mb-6">
       <Image
-        src="/mascot.svg"
+        src="/logo.png"
         alt="Mascot"
         height={60}
         width={60}
@@ -16,7 +16,7 @@ const QuestionBubble = ({ question }: QuestionBubbleProps) => {
       />
 
       <Image
-        src="/mascot.svg"
+        src="/logo.png"
         alt="Mascot"
         height={40}
         width={40}

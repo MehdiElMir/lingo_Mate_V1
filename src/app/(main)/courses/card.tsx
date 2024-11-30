@@ -32,7 +32,7 @@ export function Card({
     >
       <div className="flex min-h-[28px] w-full items-center justify-end">
         {active && (
-          <div className="flex items-center justify-center rounded-md bg-green-600 p-1.5">
+          <div className="flex items-center justify-center rounded-md bg-cyan-600 p-1.5">
             <Check className="h-4 w-4 stroke-[4] text-white" />
           </div>
         )}

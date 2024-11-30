@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Button } from "@/components/ui";
+import { Button } from "@/components/ui/Button";
 
 import {
   ClerkLoaded,
@@ -14,24 +14,13 @@ import {
 export default function HomePage() {
   return (
     <div className="mx-auto flex flex-1 flex-col w-full max-w-screen-lg items-center justify-center gap-2 px-6 py-4 lg:flex-row">
-      <div className="relative mb-8 h-[240px] w-[240px] lg:mb-0 lg:h-[424px] lg:w-[424px]">
-        <Image fill src="/hero.svg" alt="Hero" />
+      <div className="relative mb-8 h-[240px] w-[200px] lg:mb-0 lg:h-[424px] lg:w-[350px]">
+        <Image fill src="/hero.png" alt="Hero" />
       </div>
 
       <div className="flex flex-col items-center gap-y-8">
-        <div className="flex max-w-fit items-center justify-center rounded-full border border-neutral-200 bg-white/75 shadow-md backdrop-blur transition-all hover:border-neutral-300 px-5 py-1">
-          <Link
-            target="_blank"
-            referrerPolicy="no-referrer"
-            href="https://git.new/lingo"
-            className="text-sm font-semibold text-neutral-700"
-          >
-            Star on GitHub 🌟
-          </Link>
-        </div>
-
         <h1 className="max-w-[480px] text-center text-xl font-bold text-neutral-600 lg:text-3xl -mt-4">
-          Learn, refine, and master your language skills with Lingo.
+          Learn, refine, and master your language skills with LingoMate.
         </h1>
 
         <div className="flex flex-col w-full max-w-[330px] items-center gap-y-3">
