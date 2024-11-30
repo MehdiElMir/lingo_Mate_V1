@@ -1,25 +1,6 @@
-# Lingo
+# LingoMate
 
 Lingo aims to provide a super interactive and user-friendly platform for learning languages, regardless of your proficiency. Whether you’re just starting out or aiming to perfect your skills, this web app is loaded with features to make your language learning journey both enjoyable and effective. Dive in and discover a whole new way to learn!
-
-## Screenshot
-
-<img src="./screenshot.png">
-
-<p align="center">
-  <a href="https://lingo.nabarun.app"><strong>View Project »</strong></a>
-</p>
-
-## Running Locally
-
-This application requires Node.js v20.12.1+.
-
-### Cloning the repository to the local machine:
-
-```bash
-git clone https://github.com/nabarvn/lingo.git
-cd lingo
-```
 
 ### Installing the dependencies:
 
